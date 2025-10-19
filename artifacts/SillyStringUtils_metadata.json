@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"HaikuNFT.sol": "SillyStringUtils"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"HaikuNFT.sol": {
+			"keccak256": "0x22eab9f3f653078bcbc1822c4c44e7730ba001deb230291205c2e9727cf1c68f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2be69657d79ee0a5388391c812fb09d01657121aa3fc8b6022a691be6dcd4c0f",
+				"dweb:/ipfs/QmSgVCGAzkinVtkEkshJ6LJr32a26fk53sJH27Y2vqGAQ4"
+			]
+		}
+	},
+	"version": 1
+}

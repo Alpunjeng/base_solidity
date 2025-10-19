@@ -1,0 +1,172 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"gasEstimates": null,
+		"methodIdentifiers": {
+			"addContact(string,string,uint256[])": "3f06f6e8",
+			"deleteContact(uint256)": "b9ed6fca",
+			"getAllContacts()": "ef1d6ddd",
+			"getContact(uint256)": "e6505e1e"
+		}
+	},
+	"abi": [
+		{
+			"inputs": [
+				{
+					"internalType": "string",
+					"name": "_firstName",
+					"type": "string"
+				},
+				{
+					"internalType": "string",
+					"name": "_lastName",
+					"type": "string"
+				},
+				{
+					"internalType": "uint256[]",
+					"name": "_phoneNumbers",
+					"type": "uint256[]"
+				}
+			],
+			"name": "addContact",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "_id",
+					"type": "uint256"
+				}
+			],
+			"name": "deleteContact",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "getAllContacts",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "uint256",
+							"name": "id",
+							"type": "uint256"
+						},
+						{
+							"internalType": "string",
+							"name": "firstName",
+							"type": "string"
+						},
+						{
+							"internalType": "string",
+							"name": "lastName",
+							"type": "string"
+						},
+						{
+							"internalType": "uint256[]",
+							"name": "phoneNumbers",
+							"type": "uint256[]"
+						}
+					],
+					"internalType": "struct IAddressBook.Contact[]",
+					"name": "",
+					"type": "tuple[]"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "_id",
+					"type": "uint256"
+				}
+			],
+			"name": "getContact",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "uint256",
+							"name": "id",
+							"type": "uint256"
+						},
+						{
+							"internalType": "string",
+							"name": "firstName",
+							"type": "string"
+						},
+						{
+							"internalType": "string",
+							"name": "lastName",
+							"type": "string"
+						},
+						{
+							"internalType": "uint256[]",
+							"name": "phoneNumbers",
+							"type": "uint256[]"
+						}
+					],
+					"internalType": "struct IAddressBook.Contact",
+					"name": "",
+					"type": "tuple"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		}
+	]
+}

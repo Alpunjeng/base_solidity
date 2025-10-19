@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "idNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "managerId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"InheritanceUT.sol": "IEmployee"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"InheritanceUT.sol": {
+			"keccak256": "0xa83f51dcbeb86aaff607a63f383d4c6674947b1d40cf9b6ad54d157fb16affe6",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://d09804783bfcad60028f9a6951e7415e78c14849f536308eda35512e61c6f98f",
+				"dweb:/ipfs/QmSNJXapXbZozyPvDHahHsCisGyiSGzjMLc1vW5SARgy5B"
+			]
+		}
+	},
+	"version": 1
+}
