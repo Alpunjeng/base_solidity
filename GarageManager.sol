@@ -68,6 +68,7 @@ contract GarageManager {
         garages[msg.sender][_index] = Car(_make, _model, _color, _numberOfDoors);
     }
 
+
     /**
      * @dev Deletes all cars in the caller's garage
      */
