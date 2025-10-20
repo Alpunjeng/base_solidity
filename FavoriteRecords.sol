@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.23;
 
-/**
+/** 
  * @title FavoriteRecords
  * @dev Contract to manage a list of approved music records and allow users to add them to their favorites
  */
