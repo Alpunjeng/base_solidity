@@ -25,6 +25,7 @@ contract ControlStructures {
             return "Splat"; // Return "Splat" if none of the conditions are met
         }
     }
+    
 
     // Function to determine the response based on the input time
     function doNotDisturb(uint256 _time) public pure returns (string memory result) {
