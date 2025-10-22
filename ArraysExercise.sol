@@ -10,6 +10,7 @@ contract Submission {
         resetNumbers();
     }
 
+
     function resetNumbers() public {
         delete numbers;
         for (uint i = 1; i <= 10; i++) {
