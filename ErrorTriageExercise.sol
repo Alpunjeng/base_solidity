@@ -22,6 +22,7 @@ contract ErrorTriageExercise {
         return results;
     }
 
+
     /**
      * Changes the _base by the value of _modifier.  Base is always >= 1000.  Modifiers can be
      * between positive and negative 100;
