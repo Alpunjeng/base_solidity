@@ -15,6 +15,7 @@ contract EmployeeStorage {
         shares = 1000;
     }
 
+
     function grantShares(uint16 _newShares) external {
         require(_newShares <= 5000, "Too many shares");
         shares += _newShares;
